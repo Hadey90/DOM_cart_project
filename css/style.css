@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./font/*") format("ttf");
+  src: url("./font/seaweed/*") format("ttf");
+}
+/* Add additional font formats if necessary */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  color: #e41712;
+  font-weight: bold;
+}
+
+p {
+  color: #5d5d5d;
+}
+
+.text_red {
+  color: #e41712;
+  font-weight: bold;
+}
+
+.button_hover {
+  color: #e41712;
+  background-color: white;
+  font-weight: bold;
+  border: 2px solid #e41712;
+}
+.button_hover:hover {
+  color: white;
+  background-color: #e41712;
+  font-weight: bold;
+}
+#button_link a {
+  color: #e41712;
+  text-decoration: none;
+}
+#button_link a:hover {
+  color: white;
+  background-color: #e41712;
+  text-decoration: none;
+}
+.product_link a {
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product_link a:hover {
+  color: white;
+  background-color: #e41712;
+  text-decoration: none;
+}
+/* Styling for the custom button link */
+
+/* Hover styles for the custom button link */
+
+.text_gray {
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.text_gray_slim {
+  color: #5d5d5d;
+}
+
+.bg_gray {
+  background-color: #5d5d5d;
+}
+#product,
+#recipies,
+#blog {
+  font-size: 1.5rem;
+  color: #5d5d5d;
+  font-weight: bolder;
+  margin: 0 20px 0 20px;
+}
+
+.recipies_card {
+  font-size: 0.8rem;
+  color: #5d5d5d;
+  font-weight: bolder;
+}
+
+.main_color {
+  background-color: #e41712;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.c {
+  color: white;
+}
+
+.btn-outline-main_color {
+  color: #e41712;
+  border-color: #e41712;
+}
+
+.small_text {
+  font-size: 1rem;
+}
+.medium_text {
+  font-size: 1.5rem;
+}
+.large_text {
+  font-size: 2rem;
+}
+.xlarge_text {
+  font-size: 3rem;
+}
+
+/* section 3 right border css */
+
+/* Custom styles to create broken lines for all four sides of the box */
+.custom-box {
+  position: relative;
+  border: 2px solid transparent; /* Add a transparent border to create space for broken lines */
+  padding: 2px;
+}
+
+.custom-box::before,
+.custom-box::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 10px dashed #ccc; /* Adjust the color and style of the broken lines */
+}
+
+/* section 3 left imge transition csss  */
+/* Custom styles for the image zoom effect on hover */
+.zoom-on-hover {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  overflow: hidden;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(
+    1.05
+  ); /* Adjust the scale value to control the zoom level on hover */
+  overflow: hidden;
+}
+/* ENDS HERE */
+
+/* FOOTER ACCORDION TEXT CSS */
+.text-off_black {
+  color: #5d5d5d;
+  /*  font-weight: bold; */
+}
+.text-off_black:hover {
+  color: #e41712;
+  font-weight: bold;
+}
+/* Default style with white text */
+
+/* ENDS HERE */
+
+/* .cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.quantity-btn {
+  margin: 0 5px;
+  padding: 2px 8px;
+}
+
+.item-price {
+  margin: 0 10px;
+}
+
+.subtotal {
+  margin-top: 10px;
+  font-weight: bold;
+} */
+
+.like-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.like-btn:hover {
+  color: red;
+}
+
+.quantity-btn {
+  margin: 0 5px;
+  padding: 2px 8px;
+  color: #e41712;
+  font-weight: bold;
+  background-color: white;
+}
